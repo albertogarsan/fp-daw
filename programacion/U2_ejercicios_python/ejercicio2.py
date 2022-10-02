@@ -1,10 +1,11 @@
 # Programa que calcula el área de un rectangulo
+
 # Autor: Alberto Garcia Sánchez
 # Data : 28/09/2022
 
-import time
+import time #Con impot indicamos que necesitamos una libreria. La función que utilizaremos es time.sleep() que hace que el programa se pause una cantidad de segundos.
 
-def areaRectangulo(base, altura):
+def areaRectangulo(base, altura): #definición de una función empieza con la palabra reservada def + nombre de la función (param1, param2)
     return base * altura
 base = int(input("Dime la base del rectángulo: "))
 altura = int(input("Dime la altura del rectángulo: "))

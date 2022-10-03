@@ -41,18 +41,27 @@ c = int(input("Introduce un valor para c: "))
 d = int(input("Introduce un valor para d: "))
 
 
-print("Este es e lpolinomio resultante con los valores introducidos: a*x^5 - b*x^3 + c*x - d")
+print("Este es el polinomio resultante: a*x^5 - b*x^3 + c*x - d")
 
-
+""" 
 x = -10
-print("El resultado para el valor de x = -10 es: ", a*x^5 - b*x^3 + c*x - d)
+print("El resultado para el valor de x = -10 es: ", a*x**5 - b*x**3 + c*x - d)
 x = -1
-print("El resultado para el valor de x = -1 es: ", a*x^5 - b*x^3 + c*x - d)
+print("El resultado para el valor de x = -1 es: ", a*x**5 - b*x**3 + c*x - d)
 x = 0
-print("El resultado para el valor de x = 0 es: ", a*x^5 - b*x^3 + c*x - d)
+print("El resultado para el valor de x = 0 es: ", a*x**5 - b*x**3 + c*x - d)
 x = 1
-print("El resultado para el valor de x = 1 es: ", a*x^5 - b*x^3 + c*x - d)
+print("El resultado para el valor de x = 1 es: ", a*x**5 - b*x**3 + c*x - d)
 x = 10
-print("El resultado para el valor de x = 10 es: ", a*x^5 - b*x^3 + c*x - d)  
+print("El resultado para el valor de x = 10 es: ", a*x**5 - b*x**3 + c*x - d)   """
+
+def polinomio(x):
+    return a*x**5 - b*x**3 + c*x - d
+
+print("El resultado para el valor de x = -10 es: ", polinomio(-10))
+print("El resultado para el valor de x = -10 es: ", polinomio(-1))
+print("El resultado para el valor de x = -10 es: ", polinomio(0))
+print("El resultado para el valor de x = -10 es: ", polinomio(1))
+print("El resultado para el valor de x = -10 es: ", polinomio(10))
 
 print("Final")

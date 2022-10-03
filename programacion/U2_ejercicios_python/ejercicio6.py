@@ -1,4 +1,5 @@
-#Ejercicio propuesto 6 
+#Ejercicio propuesto 6
+# alberto_garcia_propuesto6.py
 
 # Haz un programa que pregunte cuántos años tiene alguien y que muestre por pantalla la cantidad de años que faltan para la mayoría de edad (18 zños) y para jubilarse (67 años). 
 

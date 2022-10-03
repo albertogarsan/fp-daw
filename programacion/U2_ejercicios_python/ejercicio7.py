@@ -1,3 +1,4 @@
+# alberto_garcia_propuesto7.py
 #Ejercicio propuesto 7 - Programa que pregunte por la base y la altura de un triángulo y muestre por pantalla el área de ese triángulo. 
 
 def areaTriangulo(base, altura):

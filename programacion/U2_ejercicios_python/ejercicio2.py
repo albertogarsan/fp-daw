@@ -1,5 +1,5 @@
 # Programa que calcula el área de un rectangulo
-
+# alberto_garcia_propuesto2.py
 # Autor: Alberto Garcia Sánchez
 # Data : 28/09/2022
 

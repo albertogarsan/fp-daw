@@ -1,5 +1,5 @@
 # Ejercicio propuesto 1 - Ejecuta en el intérprete un print con tu nombre.
-
+# alberto_garcia_propuesto1.py
 # Ejecuta: 
 
 """ a = 2

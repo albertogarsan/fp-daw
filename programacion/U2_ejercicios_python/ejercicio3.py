@@ -1,5 +1,5 @@
 #Modificar el area del rectangulo por la del cuadrado
-
+# alberto_garcia_propuesto3.py
 # Autor: Alberto Garcia Sánchez
 # Data : 28/09/2022
 

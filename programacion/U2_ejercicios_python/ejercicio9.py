@@ -1,3 +1,4 @@
+# alberto_garcia_propuesto9.py
 # Ejercicio propuesto 9 - Programa que pida el peso y la altura del usuario para calcular el IMC - Índice de masa corporal 
 
 def IMC(peso, altura):

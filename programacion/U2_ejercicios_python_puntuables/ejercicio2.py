@@ -1,3 +1,5 @@
+# alberto_garcia_ejercicio2.py
+
 """ EJ - 2 
 
 Implementar un programa que calcule la temperatura en grados Centígrados a partir de la temperatura en grados Fahrenheit.

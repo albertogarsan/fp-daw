@@ -1,3 +1,5 @@
+# alberto_garcia_ejercicio3.py
+
 """ EJ - 3 
 
 Implementar un programa que calcule los intereses producidos y el capital acumulado de una cantidad c invertida a un interés r  (expresado en tanto por ciento) durante t días. 

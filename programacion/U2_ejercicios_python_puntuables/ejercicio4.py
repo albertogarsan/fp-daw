@@ -1,3 +1,5 @@
+# alberto_garcia_ejercicio4.py
+
 """ EJ - 4 
 
 Realizar un programa para calcular los polinomios que sigan este patrón: 

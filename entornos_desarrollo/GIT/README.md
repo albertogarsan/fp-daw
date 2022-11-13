@@ -31,7 +31,7 @@
 | `git branch` | Para ver las ramas que tenemos creadas |
 | `git branch rama1` | Creación de la rama rama1 |
 | `git checkout rama1`| Cambiar de la rama master a la rama1 |
-| `git checkout -b rama1 | Es una forma de crear y cambiar directamente de la rama master a la rama1 |
+| `git checkout -b rama1` | Es una forma de crear y cambiar directamente de la rama master a la rama1 |
 | `git branch -m rama1 nombre_nuevo` | Renombrar rama1 a nombre_nuevo |
 | `git branch -d nombre_nuevo` | Borrar una rama |
 | `git merge` | Fusión de ramas. Primero tendremos que ubicarnos en la rama a la que queremos llevar los cambios (normalmente las master) y le pasaremos el `git merge rama1` de tal manera que mergearemos rama1 en la mster |

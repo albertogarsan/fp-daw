@@ -20,7 +20,7 @@
 | `git log --oneline -4`| Muestra los últimos 4 commits realizados en versión corta |
 | `git log --oneline --graph --all --decorate`| Muestra los commits realizados en versión corta en representación gráfica |
 | `git checkout -- archivo.txt` | Descarta los cambios en el directorio de trabajo |
-| `git reset HEAD archivo.txt | Descarta los cambios en la zona de stage | 
+| `git reset HEAD archivo.txt` | Descarta los cambios en la zona de stage | 
 | `git add archivo.txt` | Pasa el archivo.txt a la zona de stage |
 | `git add .` | Pasa todos los archivos a la zona de stage |
 | `git commit -m "Añado el archivo.txt"` | Captura una instantánea de los cambios preparados en ese momento del proyecto tras haber pasado archivo.txt a la zona de stage con `git add` | 

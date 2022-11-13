@@ -26,11 +26,13 @@
 | `git commit -m "Añado el archivo.txt"` | Captura una instantánea de los cambios preparados en ese momento del proyecto tras haber pasado archivo.txt a la zona de stage con `git add` | 
 | `git commit -am "Descripción"` | Se utiliza para aplicar git add y git commit, pero este comando solo funciona si primero hiciste al menos una vez git add sobre los archivos que estas trabajando |
 | `git commit --amend -m "Cambio el mensaje del último commit"` | Cambiar el mensaje del último commit |
+| `git annotate`| Muestra quién ha hecho cambios sobre el archivo.txt |
 | `git revert 8c21c7e` | Revierte el estado a un commit, generando un nuevo commit que deshace los cambios en el commit indicado, aplicando los cambios a la rama actua. |
 | `git checkout 8c21c7e -- archivo.txt` | Revierte un archivo de un commit |
 | `git diff` | Muestra las diferencias de los ficheros que **no han estado** en la zona de stage |
 | `git branch` | Para ver las ramas que tenemos creadas |
 | `git branch rama1` | Creación de la rama rama1 |
+| `git branch -av` | Muestra las ramas del repositorio |
 | `git checkout rama1`| Cambiar de la rama master a la rama1 |
 | `git checkout -b rama1` | Es una forma de crear y cambiar directamente de la rama master a la rama1 |
 | `git branch -m rama1 nombre_nuevo` | Renombrar rama1 a nombre_nuevo |

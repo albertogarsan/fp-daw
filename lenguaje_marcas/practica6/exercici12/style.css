@@ -1,0 +1,20 @@
+nav li {
+    display: inline;
+    margin: 20px;
+}
+
+nav li a {
+    font-family: Arial;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 20px;
+    background-color: #b82b2b;
+    color: #fff;
+    border-radius: 15px 5px;
+}
+
+li a:hover {
+    background-color: #ec9595;
+    margin-top: -4px;
+    padding-bottom: 14px;
+}

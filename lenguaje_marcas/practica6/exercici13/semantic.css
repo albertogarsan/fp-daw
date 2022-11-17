@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* Estils generals */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: "work sans";
+    box-sizing: border-box;
+}
+
+.contenedor {
+    max-width: 1024px;
+    min-width: 320px;
+    margin: 100px auto 0 auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+/*Estils del header */
+
+.cabecera_extra {
+    position: fixed;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 2rem;
+}
+
+.cabecera {
+    background-color: yellow;
+    padding: 40px;
+    border-radius: 2rem;
+}
+
+
+/* Estils del contingut */
+
+.contenido {
+    padding: 20px 0;
+    height: 400px;
+}
+
+.navegador {
+    background-color: red;
+    width: 20%;
+    height: 365px;
+    float: left;
+    text-align: center;
+    position: relative;
+    border-radius: 2rem;
+}
+
+.centrar {
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+}
+
+.articulo {
+    float: right;
+    width: 78%;
+    padding: 20px;
+    background-color: rgb(116, 193, 116);
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    border-radius: 2rem;
+    border: 4px dashed cadetblue;
+}
+
+.post {
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: rgb(116, 213, 213);
+    background-color: #fff;
+    background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+}
+
+
+/* Estils del footer */
+
+footer {
+    padding: 20px;
+    background-color: pink;
+    text-align: center;
+    border-radius: 1rem;
+}

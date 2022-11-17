@@ -1,0 +1,45 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(315deg, #F4BDFF, #BDC2FF, #A3FFD9);
+}
+
+* {
+    font-family: sans-serif;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    padding: 2rem;
+    background-color: aliceblue;
+    width: 25%;
+    max-width: 25%;
+    margin: 0 auto;
+    border-radius: 1rem;
+    text-align: center;
+    list-style-position: inside;
+    box-shadow: 0px 10px 13px -7px #00000021;
+}
+
+ol {
+    padding: 0;
+}
+
+ol>li,
+a {
+    padding-bottom: 1rem;
+    color: #121212;
+}
+
+li>a:hover {
+    color: rgb(77, 142, 163);
+}

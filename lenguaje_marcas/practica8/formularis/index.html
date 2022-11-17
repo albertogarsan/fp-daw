@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari</title>
+    <link rel="stylesheet" href="https://unpkg.com/@sakun/system.css" />
+    <style>
+        body {
+            padding: 2rem;
+            width: 60%;
+            margin: 0 auto;
+        }
+        
+        fieldset {
+            padding: 2rem;
+            font-weight: bold;
+            margin-top: 2rem;
+        }
+        
+        legend {
+            font-size: 1.25rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="font-size: 40px;">Formulari</h1>
+    <form action="">
+        <fieldset>
+            <legend>Dades personals:</legend>
+            <!--Nom-->
+            <label for="">Nom:</label><br>
+            <input type="text" id="" name="" value=""><br><br>
+            <!--Cognom-->
+            <label for="">Cognoms:</label><br>
+            <input type="text" id="" name="" value=""><br><br>
+            <!--Correoe-->
+            <label for="">Correu electrònic:</label>
+            <input type="email" name="" id=""><br><br>
+            <!--Text area-->
+            <textarea rows="10" cols="30"></textarea><br><br>
+
+            <h2>Altre compte d'usuari</h2>
+            <!--Usuari-->
+            <label for="">Usuari:</label>
+            <input type="text" name="" id="">
+            <!--Contrasenya-->
+            <label for="">Contrasenya:</label>
+            <input type="password" name="" id="">
+        </fieldset>
+        <fieldset>
+            <legend>Idiomes:</legend>
+            <label for="">Indica el teu nivel de l'1 al 5:</label><br><br>
+            <!--Anglés-->
+            <label for="">Anglés</label>
+            <label for="">1</label>
+            <input type="radio" name="" id="">
+            <label for="">2</label>
+            <input type="radio" name="" id="">
+            <label for="">3</label>
+            <input type="radio" name="" id="">
+            <label for="">4</label>
+            <input type="radio" name="" id="">
+            <label for="">5</label>
+            <input type="radio" name="" id="">
+            <br><br>
+
+            <!--Francés-->
+            <label for="">Francés</label>
+            <label for="">1</label>
+            <input type="radio" name="" id="">
+            <label for="">2</label>
+            <input type="radio" name="" id="">
+            <label for="">3</label>
+            <input type="radio" name="" id="">
+            <label for="">4</label>
+            <input type="radio" name="" id="">
+            <label for="">5</label>
+            <input type="radio" name="" id="">
+            <br><br>
+
+            <!--Alemà-->
+            <label for="">Alemà</label>
+            <label for="">1</label>
+            <input type="radio" name="" id="">
+            <label for="">2</label>
+            <input type="radio" name="" id="">
+            <label for="">3</label>
+            <input type="radio" name="" id="">
+            <label for="">4</label>
+            <input type="radio" name="" id="">
+            <label for="">5</label>
+            <input type="radio" name="" id="">
+        </fieldset>
+        <fieldset>
+            <legend>Domine els següents programes:</legend>
+            <label for="">Virtualbox</label>
+            <input type="checkbox" name="" id="">
+            <label for="">VMware</label>
+            <input type="checkbox" name="" id="">
+            <label for="">Visual Studio Code</label>
+            <input type="checkbox" name="" id="">
+            <label for="">Netbeans</label>
+            <input type="checkbox" name="" id="">
+        </fieldset>
+        <fieldset>
+            <legend>Treballe amb el sistema operatiu:</legend>
+            <select name="">
+                <option value="">MacOS</option>
+                <option value="">Ubuntu</option>
+                <option value="">Windows</option>
+        </select>
+        </fieldset>
+        <br><br>
+        <input type="button" value="Netejar">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

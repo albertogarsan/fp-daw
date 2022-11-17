@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* Estils generals */
+
+* {
+    box-sizing: border-box;
+    font-family: "work sans";
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    display: block;
+}
+
+
+/* Estils per a la pràctica */

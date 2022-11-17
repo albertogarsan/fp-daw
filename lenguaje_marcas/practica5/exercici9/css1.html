@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS1</title>
+
+    <style>
+        .nota {
+            margin-left: .5in;
+            width: 250;
+            border: solid 3px black;
+        }
+        
+        .consell {
+            background-color: yellow;
+        }
+        
+        .recurs {
+            background-color: green;
+        }
+        
+        .advertencia {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h1> Estilo en cascada</h1>
+    <div style="background-color:red;color:white;">
+        Este text es mostra amb text blanc sobre fons roig
+        <div> I este DIV está dins del primer</div>
+        <div style="background-color:lightgreen">
+            Este text té el fons verd i hereda en cascada el text blanc
+            <div style="color:black;">
+                Este hereda el fons verd i canvia el text a negre
+            </div>
+        </div>
+        Este text torna a ser blanc sobre roig, perquè ho hereta del nivell superior </div>
+    <div>
+        Esto no té estil associat i ha d'apareixer negre sobre blanc
+    </div>
+    </div> -->
+
+    <h1> Aplicant una classe per bloc </h1>
+    <div class="consell">Açó és un consell.</div>
+    <div class="recurs">Açó és un recurso.</div>
+    <div class="advertencia"> Açó és una advertència.</div>
+
+    <h1> Aplicant més d'una classe per bloc </h1>
+    <div class="nota consell">NOTA 1. - Açó és un consell.</div>
+    <div class="nota recurs">NOTA 2. - Açó és un recurso.</div>
+    <div class="nota advertencia">NOTA 3. - Açó és una advertència.</div>
+</body>
+
+</html>

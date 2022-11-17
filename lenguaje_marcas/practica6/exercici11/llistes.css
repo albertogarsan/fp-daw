@@ -1,0 +1,16 @@
+.tipo-llista-desordenada>li {
+    list-style-type: georgian;
+}
+
+.tipo-llista-ordenada>li {
+    list-style-type: decimal-leading-zero;
+}
+
+.tipo-posicio-llista-desordenada {
+    list-style-type: armenian;
+    list-style-position: inside;
+}
+
+.tipo-lista-custom>li {
+    list-style-image: url('check.png');
+}

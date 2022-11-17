@@ -52,5 +52,5 @@ for item in menu:
     print(f"{item} - {menu[item][0]}")
     
 item = input("Selecciona una item del menu: ")
-menu[item][1]()
+menu[item][1]() #Senyalem al diccionari menu, a la posició que rebem de l'usuari i cridarà a la posició de la funció (segon element de la tupla: [1]) per a executar l'acció després de rebre la info sol·licitada a l'usuari.
     

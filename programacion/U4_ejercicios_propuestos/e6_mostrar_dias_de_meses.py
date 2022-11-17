@@ -17,11 +17,11 @@ meses = ["Enero", #31 impar
          "Junio", #30 par
          "Julio", #31 impar 
          
-         "Agosto", #31 par
-         "Septiembre", #30 impar
-         "Octubre", #31 par
-         "Noviembre", #30 impar
-         "Diciembre"] #31 par
+         "Agosto", #31 impar
+         "Septiembre", #30 par
+         "Octubre", #31 impar
+         "Noviembre", #30 par
+         "Diciembre"] #31 impar
 
 
 if user == 2:

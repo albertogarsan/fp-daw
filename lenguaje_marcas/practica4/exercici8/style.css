@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* Estils generals */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: "work sans";
+    box-sizing: border-box;
+}
+
+.contenedor {
+    background-color: lightgray;
+    width: 80%;
+    margin: 100px auto 0 auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+/*Estils del header*/
+
+.cabecera {
+    background-color: black;
+    height: 60px;
+}
+
+.titulo__principal {
+    color: white;
+    float: left;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.navegacion {
+    color: white;
+    display: inline;
+    float: right;
+    padding: 20px;
+}
+
+
+/* Estils del contingut */
+
+.contenido {
+    background-color: lightgray;
+    padding: 20px;
+    height: 400px;
+}
+
+.navegador {
+    width: 20%;
+    height: 345px;
+    background-color: gray;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.centrar {
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+}
+
+.articulo {
+    float: right;
+    width: 78%;
+    padding: 20px;
+}
+
+
+/* Estils del footer */
+
+footer {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

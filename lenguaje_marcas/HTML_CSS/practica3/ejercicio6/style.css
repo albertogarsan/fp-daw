@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* Estils generals */
+
+* {
+    box-sizing: border-box;
+    font-family: "work sans";
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Estils per a la pràctica */
+
+main {
+    padding: 2rem;
+}
+
+section {
+    width: 50%;
+    margin: 0 auto 2rem;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px 16px;
+    height: 32px;
+    width: 20%;
+    text-align: center;
+}

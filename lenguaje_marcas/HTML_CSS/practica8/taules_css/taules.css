@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* Estils generals */
+
+* {
+    box-sizing: border-box;
+    font-family: "work sans";
+}
+
+html,
+body {
+    padding: 0;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+header,
+section,
+article {
+    border: 2px solid red;
+    padding: 4rem;
+    margin-bottom: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+nav>a {
+    padding: 8px 32px;
+    border: 2px solid red;
+    border-radius: 32px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("img/foto.jpeg");
+    background-size: cover;
+}
+
+h1 {
+    padding: 8px 32px;
+    border: 2px solid red;
+    color: red;
+    background: white;
+    border-radius: 32px;
+    text-align: center;
+    box-shadow: 0px 10px 20px -7px #000000, 20px 20px 0px -3px #000000;
+    ;
+    margin-bottom: 3.5rem;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    padding: 8px 16px;
+    height: 32px;
+    width: 20%;
+    text-align: center;
+    width: 100%;
+    border: 2px solid black;
+}
+
+table {
+    width: 100%;
+}
+
+.tabla-nav thead td {
+    text-align: center;
+    background-color: #b2e145a9;
+}
+
+.padding {
+    padding: 0;
+    border-collapse: collapse;
+    border: none;
+}
+
+.tabla tbody td:nth-child(2) {
+    padding: 0;
+}
+
+.tabla caption {
+    padding: 16px;
+}
+
+.subtabla,
+.subtabla tr,
+.subtabla td {
+    border: none;
+}
+
+.subtabla tr:nth-child(1) td {
+    border-bottom: 1px solid black;
+}
+
+.tabla tr:hover {
+    /* background-color: rgb(255, 64, 64); */
+    background-image: url("img/foto.jpeg");
+    color: white;
+}
+
+.table2 tr:hover {
+    background-color: rgb(255, 64, 64);
+    color: white;
+}
+
+.table2 tr:nth-child(even) {
+    background-color: #ffbaba;
+}
+
+.table2 tr:nth-child(even):hover {
+    background-color: rgb(255, 64, 64);
+    color: white;
+}
+
+footer {
+    text-align: center;
+}

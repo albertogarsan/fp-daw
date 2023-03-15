@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* Estils generals */
+
+:root {
+    --fol: #68B67C;
+    --bd: #B66874;
+    --si: #C5C373;
+    --prg: #6880B6;
+    --edd: #8AB668;
+    --hdi: #B69368;
+    --lmi: #68ADB6;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "work sans";
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Estils per a la pràctica */
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 8rem;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px 16px;
+    height: 32px;
+    width: 20%;
+    text-align: center;
+}
+
+tr:nth-child(8) {
+    border: none;
+}
+
+table {
+    width: 100%;
+}
+
+
+/* Ajustar els amples de certes columnes */
+
+.table_content_hores {
+    width: 10%;
+    text-align: left;
+}
+
+.table_header-cell:nth-child(5) {
+    width: 10%;
+}
+
+
+/* Colors per a cada assignatura*/
+
+.fol {
+    background-color: var(--fol);
+}
+
+.prg {
+    background-color: var(--prg);
+}
+
+.lmi {
+    background-color: var(--lmi);
+}
+
+.si {
+    background-color: var(--si);
+}
+
+.hdi {
+    background-color: var(--hdi);
+}
+
+.bd {
+    background-color: var(--bd);
+}
+
+.edd {
+    background-color: var(--edd);
+}

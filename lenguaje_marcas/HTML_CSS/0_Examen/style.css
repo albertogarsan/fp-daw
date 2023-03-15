@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* Estils generals */
+
+* {
+    box-sizing: border-box;
+    font-family: "work sans";
+}
+
+html,
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/* Estils header */
+
+header {
+    border-width: 4px;
+    border-color: rgb(115, 150, 211);
+    border-style: none solid solid solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .75rem 1rem;
+    border-radius: 0 0 1rem 1rem;
+    background: rgba(23, 0, 255, 1);
+    background: linear-gradient(180deg, rgb(151, 178, 236) 50%, rgb(115, 150, 211) 100%);
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+    object-fit: cover;
+}
+
+
+/* Estils contenedor principal */
+
+main {
+    border: 4px solid rgb(115, 150, 211);
+    border-radius: 1rem;
+    height: 100%;
+    padding: 4rem;
+    margin: 1rem 0;
+    background-color: rgb(151, 178, 236);
+}
+
+table,
+td,
+th {
+    border: 2px solid aliceblue;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 1rem 2rem;
+}
+
+td img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    color: white;
+}
+
+th {
+    color: black;
+    background-color: rgba(240, 248, 255, 0.5);
+}

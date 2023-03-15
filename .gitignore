@@ -1,0 +1,3 @@
+# Ignorar todas las extensiones de archivo excepto .java
+*
+!*.java

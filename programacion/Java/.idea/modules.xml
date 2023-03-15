@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Canvas/Canvas.iml" filepath="$PROJECT_DIR$/Canvas/Canvas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Concesionario/Concesionario.iml" filepath="$PROJECT_DIR$/Concesionario/Concesionario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConcesionarioMod/ConcesionarioMod.iml" filepath="$PROJECT_DIR$/ConcesionarioMod/ConcesionarioMod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IMC_albertogarcia/IMC_albertogarcia.iml" filepath="$PROJECT_DIR$/IMC_albertogarcia/IMC_albertogarcia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inmobiliaria/Inmobiliaria.iml" filepath="$PROJECT_DIR$/Inmobiliaria/Inmobiliaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA.iml" filepath="$PROJECT_DIR$/.idea/JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/00_Leer/Leer.iml" filepath="$PROJECT_DIR$/00_Leer/Leer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjetosEjerciciosPropuestos/ObjetosEjerciciosPropuestos.iml" filepath="$PROJECT_DIR$/ObjetosEjerciciosPropuestos/ObjetosEjerciciosPropuestos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Submarino/Submarino.iml" filepath="$PROJECT_DIR$/Submarino/Submarino.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Submarino_v2/Submarino_v2.iml" filepath="$PROJECT_DIR$/Submarino_v2/Submarino_v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Template/Template.iml" filepath="$PROJECT_DIR$/Template/Template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/casas/casas.iml" filepath="$PROJECT_DIR$/casas/casas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicios_propuestos_i_U6_albertogarcia/ejercicios_propuestos_i_U6_albertogarcia.iml" filepath="$PROJECT_DIR$/ejercicios_propuestos_i_U6_albertogarcia/ejercicios_propuestos_i_U6_albertogarcia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicios_propuestos_ii_u5_albertogarcia/ejercicios_propuestos_ii_u5_albertogarcia.iml" filepath="$PROJECT_DIR$/ejercicios_propuestos_ii_u5_albertogarcia/ejercicios_propuestos_ii_u5_albertogarcia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicios_propuestos_u5_albertogarcia/ejercicios_propuestos_u5_albertogarcia.iml" filepath="$PROJECT_DIR$/ejercicios_propuestos_u5_albertogarcia/ejercicios_propuestos_u5_albertogarcia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicios_propuestos_u6_ii_albertogarcia/ejercicios_propuestos_u6_ii_albertogarcia.iml" filepath="$PROJECT_DIR$/ejercicios_propuestos_u6_ii_albertogarcia/ejercicios_propuestos_u6_ii_albertogarcia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicis_java/exercicis_java.iml" filepath="$PROJECT_DIR$/exercicis_java/exercicis_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pruebas/pruebas.iml" filepath="$PROJECT_DIR$/pruebas/pruebas.iml" />
+    </modules>
+  </component>
+</project>

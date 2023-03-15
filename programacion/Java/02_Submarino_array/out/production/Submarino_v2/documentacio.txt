@@ -1,0 +1,26 @@
+Submarino
+
+Menú amb opcions:
+    1. Jugar
+    2. Ajuda
+    3. Eixir del programa
+
+Preguntar a l'usuari la dimensió del mar (x e y)
+Preguntar a l'usuari el nombre d'intents
+Posicionar el submari
+Preguntar a l'usuari la coordenada X e Y (posició de l'usuari)
+
+Comprovar la posició del submari amb la posició que ha indicat l'usuari
+    - Aigua
+        - Revelava la posicó X
+    - Aprop
+        - Mostrava el canvas
+        - Canviava la posició del submari
+    - Ple
+        - Mostrar missatge de èxit
+        - Mostrar el canvas
+        - Fin de la partida
+
+void actualizarTablero(posicio, tipo);
+
+imprimirTauler();

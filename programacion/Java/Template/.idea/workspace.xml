@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5184dec8-dd18-4638-91a4-7f597aced723" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Canvas/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Canvas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Canvas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Canvas/Canvas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Canvas/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Concesionario/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Concesionario/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Concesionario/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Concesionario/Concesionario.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConcesionarioMod/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConcesionarioMod/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConcesionarioMod/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConcesionarioMod/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConcesionarioMod/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConcesionarioMod/Concesionario.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConcesionarioMod/src/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConcesionarioMod/src/Coche2mano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConcesionarioMod/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjetosEjerciciosPropuestos/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjetosEjerciciosPropuestos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjetosEjerciciosPropuestos/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjetosEjerciciosPropuestos/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjetosEjerciciosPropuestos/ObjetosEjerciciosPropuestos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjetosEjerciciosPropuestos/src/objetos/propuestos/e1/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjetosEjerciciosPropuestos/src/objetos/propuestos/e1/Concursante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjetosEjerciciosPropuestos/src/objetos/propuestos/e1/Concurso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjetosEjerciciosPropuestos/src/objetos/propuestos/e1/Domicilio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjetosEjerciciosPropuestos/src/objetos/propuestos/e1/Fecha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjetosEjerciciosPropuestos/src/objetos/propuestos/e1/IdPersona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjetosEjerciciosPropuestos/src/objetos/propuestos/e1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjetosEjerciciosPropuestos/src/objetos/propuestos/e1/Tiempo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Submarino/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Submarino/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Submarino/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Submarino/Submarino_albertogarcia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Submarino/src/FuncionesSubmarino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Submarino/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Submarino_v2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Submarino_v2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Submarino_v2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Submarino_v2/Submarino_v2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Submarino_v2/out/production/Submarino_v2/documentacio.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Submarino_v2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Submarino_v2/src/documentacio.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casas/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casas/src/Adosado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casas/src/Casa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casas/src/Chalet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casas/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casas/src/Piso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicios_propuestos_u6_ii_albertogarcia/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicios_propuestos_u6_ii_albertogarcia/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicios_propuestos_u6_ii_albertogarcia/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicios_propuestos_u6_ii_albertogarcia/ejercicios_propuestos_u6_ii_albertogarcia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicios_propuestos_u6_ii_albertogarcia/src/Funciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicios_propuestos_u6_ii_albertogarcia/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pruebas/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pruebas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pruebas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pruebas/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pruebas/pruebas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pruebas/src/Arrays_bidimensionales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pruebas/src/ClassCoche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pruebas/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pruebas/src/ObjetoCoche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConcesionarioMod/out/production/Concesionario/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConcesionarioMod/out/production/Concesionario/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casas/out/production/casas/Adosado.class" beforeDir="false" afterPath="$PROJECT_DIR$/../casas/out/production/casas/Adosado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casas/out/production/casas/Casa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../casas/out/production/casas/Casa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casas/out/production/casas/Chalet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../casas/out/production/casas/Chalet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casas/out/production/casas/Piso.class" beforeDir="false" afterPath="$PROJECT_DIR$/../casas/out/production/casas/Piso.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Mh3XorMLQHfqC5fbCY7Ns5XUWm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5184dec8-dd18-4638-91a4-7f597aced723" name="Changes" comment="" />
+      <created>1678206031063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678206031063</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

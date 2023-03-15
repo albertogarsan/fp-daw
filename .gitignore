@@ -1,4 +1,4 @@
 # Ignorar todas las extensiones de archivo excepto .java
 *
 !*.java
-*.DS_Store
+

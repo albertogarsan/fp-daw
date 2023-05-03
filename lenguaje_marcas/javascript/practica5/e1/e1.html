@@ -1,0 +1,39 @@
+<!-- Haz una web que pida, mediante un formulario y un input de tipo texto, la edad del usuario. Una vez introducido, mostrará el texto “Tu edad es “ + el número introducido. -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e1</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        
+        button {
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: dimgrey;
+            color: white;
+        }
+    </style>
+    <script src="e1.js"></script>
+</head>
+
+<body>
+    <form action="#" id="formulari" name="formulari">
+        <label for="edad">Edad</label>
+        <input type="text" class="form-control" name="edad" id="edad">
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h3 id="text"></h3>
+</body>
+
+</html>

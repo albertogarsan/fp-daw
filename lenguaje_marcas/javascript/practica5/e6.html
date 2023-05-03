@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segons</title>
+    <style>
+        h4 {
+            margin-bottom: 75px;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const form = document.querySelector("#formulari");
+            const text = document.querySelector("#text");
+
+            form.addEventListener("submit", (e) => {
+                e.preventDefault();
+
+                if (e.target.segons.value) {
+
+                    const segons = parseInt(e.target.segons.value);
+                    const numHor = Math.floor(segons / 3600);
+                    const numMin = Math.floor((segons % 3600) / 60);
+                    const numSeg = segons % 60;
+
+                    const textResultat = `${segons} segons són: ${numHor} hores, ${numMin} minuts i ${numSeg} segons`;
+
+                    text.textContent = textResultat;
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <form action="#" id="formulari" name="formulari">
+
+        <h3>Form segons a HMS</h3>
+        <label for="segons">Nombre de segons</label>
+        <input type="number" id="segons" name="segons" step="1"><br>
+
+        <button type="submit">CALCULAR</button>
+
+    </form>
+
+    <h4 id="text"></h4>
+
+</body>
+
+</html>

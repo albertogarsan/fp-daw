@@ -1,0 +1,46 @@
+<!-- Haz una aplicación que pida al usuario su altura en metros y su peso en kilogramos y calcule su índice de masa corporal según la siguiente fórmula: -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+
+            const resultado = document.querySelector("#resultado")
+            const formulari = document.querySelector("#formulari")
+
+            formulari.addEventListener("submit", (e) => {
+                e.preventDefault()
+
+                const imc = parseFloat(e.target.peso.value) / Math.pow(parseFloat(e.target.altura.value), 2)
+
+                resultado.textContent = `El resultado es ${imc.toFixed(2)}`
+            })
+
+        })
+    </script>
+
+    <form action="#" id="formulari" name="formulari">
+
+        <label for="altura">Altura</label>
+        <input type="number" name="altura" id="altura" step="any">
+        <label for="peso">Peso</label>
+        <input type="number" name="peso" id="peso" step="any">
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <h3 id="resultado"></h3>
+</body>
+
+</html>

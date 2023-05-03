@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;800;900&display=swap");
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "work sans";
+    background: #f2f2f2;
+}
+
+section {
+    margin: 4rem auto;
+    text-align: center;
+    padding: 0 4rem 4rem;
+    width: 40%;
+    border-radius: 0 0 1rem 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+label,
+input,
+select {
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    text-align: start;
+}
+
+input {
+    padding: .5rem 1rem;
+}
+
+button {
+    cursor: pointer;
+    padding: 1rem 2rem;
+    background-color: rgb(194, 227, 242);
+    border: none;
+    border-radius: .25rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(6, 146, 185);
+}
+
+select,
+form input[type="number"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: .5rem;
+    background: #f2f2f2;
+    border: none;
+    box-shadow: inset 4px 4px 5px #a9a9a95e, inset -4px -4px 5px #ffffff;
+    font-family: 'Poppins light';
+    font-size: 14px;
+    outline: none;
+}
+
+form input[type="number"]:focus {
+    border: 2px solid rgb(6, 146, 185);
+}
+
+button {
+    width: 100%;
+    text-align: center;
+    border: none;
+    display: block;
+    padding: 15px 10px;
+    border-radius: .5rem;
+    background: #f2f2f2;
+    box-shadow: 3px 3px 5px #a9a9a95e, -3px -3px 5px #ffffff;
+}
+
+button:hover {
+    color: rgb(11, 115, 144);
+    box-shadow: inset 4px 4px 5px #a9a9a95e, inset -4px -4px 5px #ffffff;
+}
+
+p {
+    margin-top: 2rem;
+    width: 100%;
+    align-items: center;
+}

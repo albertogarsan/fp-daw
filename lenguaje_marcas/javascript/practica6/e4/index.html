@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="formulari" id="formulari">
+
+        <label for="radi">Introdueix la base: </label>
+        <input type="number" class="form-control" name="radi" id="radi" step="any">
+
+        <label for="altura">Introdueix l'altura: </label>
+        <input type="number" class="form-control" name="altura" id="altura" step="any">
+
+        <button type="submit">Acceptar</button>
+    </form>
+
+    <div>
+        <p>Perímetre de la base: <span id="resultat1"></span></p>
+        <p>Àrea de la base: <span id="resultat2"></span></p>
+        <p>Àrea lateral del cilindre: <span id="resultat3"></span></p>
+        <p>Àrea total del cilindre: <span id="resultat4"></span></p>
+        <p>Volum del cilindre: <span id="resultat5"></span></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
+
+<!--
+Haz una web que pida, para un cilindro, el radio de su base (r) y la altura (h).
+
+A partir de esos datos deberá calcular los siguientes valores, usando una función para cada cálculo:
+
+1. Perímetro de la base.
+2. Área de la base.
+3. Área lateral del cilindro: Perímetro de la base * h
+4. Área del cilindro = (Área de la base * 2) + Área lateral del cilindro
+5. Volumen del cilindro = Área de la base * h
+
+Crear una función para cada valor y utilizar los resultados en las funciones posteriores. 
+
+Todos los datos deberán leerse como números decimales y los valores de retorno deberán ser también decimales.
+-->

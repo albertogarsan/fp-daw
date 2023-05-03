@@ -1,0 +1,52 @@
+<!-- Haz una web que pida el radio de un círculo como entero e imprima su diámetro, circunferencia y área. Usar el valor de Math.PI para calcular los resultados. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        window.addEventListener("DOMContentLoaded", () => {
+            const resultado1 = document.querySelector("#resultado1")
+            const resultado2 = document.querySelector("#resultado2")
+            const resultado3 = document.querySelector("#resultado3")
+            const formulari = document.querySelector("#formulari")
+
+            formulari.addEventListener("submit", (e) => {
+                e.preventDefault()
+                const radio = parseInt(e.target.radio.value)
+
+                const diametro = radio * 2
+                const circunferencia = Math.PI * diametro
+                const area = Math.PI * Math.pow(radio, 2)
+
+                resultado1.textContent = `El resultado del diametro es ${diametro.toFixed(2)}`
+                resultado2.textContent = `El resultado de la circunferencia es ${circunferencia.toFixed(2)}`
+                resultado3.textContent = `El resultado del area es ${area.toFixed(2)}`
+            })
+        })
+    </script>
+
+
+    <form action="#" id="formulari" name="formulari">
+
+        <label for="radio">Radio de un circulo</label>
+        <input type="number" name="radio" id="radio" step="1">
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <h3 id="resultado1"></h3>
+    <h3 id="resultado2"></h3>
+    <h3 id="resultado3"></h3>
+</body>
+
+</html>

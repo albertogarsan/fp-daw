@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section>
+        <form action="#" id="formulari" name="formulari">
+
+            <!--Preu article-->
+            <label for="preu">Precio artículo</label>
+            <input type="number" class="form-control" name="preu" id="preu" step="any">
+
+
+            <!--% de descompte-->
+            <label for="descompte">Descuento</label>
+            <input type="number" class="form-control" name="descompte" id="descompte" step="any">
+
+
+            <!--Triar IVA-->
+            <label for="percentatgeIva">Elegir % de IVA</label>
+            <select name="selectorIva" id="selectorIva">
+                <option value="4%">4%</option>
+                <option value="10%">10%</option>
+                <option value="21%">21%</option>
+            </select>
+
+            <!--Submit-->
+            <button type="submit" class="btn">Aceptar</button>
+
+            <p id="resultat1"></p>
+            <p id="resultat2"></p>
+        </form>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>

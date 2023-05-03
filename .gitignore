@@ -1,4 +1,5 @@
 # Ignorar todas las extensiones de archivo excepto .java
-*
-!*.java
+programacion/Java/*
+programacion/Java/!*.java
+*.DS_Store
 

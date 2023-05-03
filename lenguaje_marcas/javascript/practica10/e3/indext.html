@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afegir objectes</title>
+    <script src="main.js" defer></script>
+
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        
+        body {
+            max-width: 30%;
+            margin: 20rem auto;
+        }
+        
+        button {
+            padding: 8px 16px;
+            margin-top: 1rem;
+            margin-right: 1rem;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            background-color: cadetblue;
+            color: white;
+        }
+        
+        button:hover {
+            background-color: dimgrey;
+            color: white;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            padding: 4rem;
+            border-radius: 1rem;
+            background: #f2f2f2;
+            border: none;
+            box-shadow: inset 4px 4px 5px #a9a9a95e, inset -4px -4px 5px #ffffff;
+            font-family: 'Poppins light';
+            font-size: 14px;
+            outline: none;
+        }
+        
+        form input {
+            padding: 8px 16px;
+        }
+        
+        label {
+            padding-top: 1rem;
+        }
+        
+        section {
+            display: none;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <form action="">
+        <h1>Afegir smartphone</h1>
+        <label for="marca">Marca: </label>
+        <input type="text" name="marca" id="marca">
+        <label for="model">Model: </label>
+        <input type="text" name="model" id="model">
+        <label for="preu">Preu: </label>
+        <input type="number" name="preu" id="preu">
+        <p></p>
+        <div>
+            <!--Cuidao amb els botons, sino afegim els types i sols diguen a un type="submit" agafa tots els botons com a submit-->
+            <button type="submit">Afegeix</button>
+            <button id="button" type="button">Mostra</button>
+        </div>
+    </form>
+
+    <section>
+        <h2>Llistat d'smartphones: </h2>
+        <ul></ul>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!-- Hacer una página con un formulario con un input de texto y un botón, que pida el nombre del usuario, de forma que cuando se pulse el botón se muestre el mensaje “Hola “ + nombre, sin borrar el formulario. Utiliza name en lugar de id para identificar al formulario y al input. -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e5</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        
+        button {
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: dimgrey;
+            color: white;
+        }
+    </style>
+    <script src="e5.js"></script>
+
+</head>
+
+<body>
+    <form action="#" id="formulari" name="formulari">
+
+        <label for="nom">Usuari</label>
+        <input type="text" class="form-control" name="nom" id="nom">
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <h3 id="text"></h3>
+</body>
+
+</html>

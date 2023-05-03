@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        
+        form input {
+            display: block;
+            margin-bottom: 1rem;
+        }
+        
+        button {
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: dimgrey;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        //Haz una web que pida 3 palabras y que al pulsar un botón muestre el resultado de concatenar esas 3 palabras, con espacios entre ellas.
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const a = document.querySelector("#paraula1")
+            const b = document.querySelector("#paraula2")
+            const c = document.querySelector("#paraula3")
+            const resultado = document.querySelector("#resultado")
+            const formulari = document.querySelector("#formulari")
+
+            formulari.addEventListener("submit", (e) => {
+                e.preventDefault()
+                const resultadoConc = `${a.value} ${b.value} ${c.value}`
+
+                resultado.textContent = resultadoConc
+            })
+
+        })
+    </script>
+
+    <form action="#" id="formulari" name="formulari">
+
+        <label for="paraula1">Paraula 1</label>
+        <input type="text" name="paraula1" id="paraula1">
+        <label for="paraula2">Paraula 2</label>
+        <input type="text" name="paraula2" id="paraula2">
+        <label for="paraula3">Paraula 3</label>
+        <input type="text" name="paraula3" id="paraula3">
+
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <h3 id="resultado"></h3>
+</body>
+
+</html>

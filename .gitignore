@@ -1,5 +1,5 @@
 # Ignorar todas las extensiones de archivo excepto .java
-
+.gitigone
 programacion/Java/!*.java
 *.DS_Store
 

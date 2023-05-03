@@ -1,5 +1,5 @@
 # Ignorar todas las extensiones de archivo excepto .java
-.gitigone
+.gitignore
 programacion/Java/!*.java
 *.DS_Store
 
@@ -140,3 +140,4 @@ programacion/Java/U11_propuestos/U11_propuestos/.idea/modules.xml
 programacion/Java/U11_propuestos/U11_propuestos/U11_propuestos.iml
 programacion/Java/U11_propuestos/U11_propuestos_ii/exercicis/.vscode/settings.json
 programacion/Java/U11_propuestos/U11_propuestos_ii/exercicis/README.md
+.gitignore

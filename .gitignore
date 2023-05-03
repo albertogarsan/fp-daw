@@ -1,5 +1,4 @@
 # Ignorar todas las extensiones de archivo excepto .java
-.gitignore
 programacion/Java/!*.java
 *.DS_Store
 

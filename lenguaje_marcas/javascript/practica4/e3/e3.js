@@ -1,7 +1,9 @@
 //Parrafo
 const parrafo = document.createElement("p")
 document.body.appendChild(parrafo)
-parrafo.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius natus, ullam aspernatur quas dolores a vitae mollitia iusto ex quaerat officia nulla molestias possimus et provident quibusdam deserunt, voluptate adipisci."
+/* parrafo.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius natus, ullam aspernatur quas dolores a vitae mollitia iusto ex quaerat officia nulla molestias possimus et provident quibusdam deserunt, voluptate adipisci." */
+const parrafoText = document.createTextNode("Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius natus, ullam aspernatur quas dolores a vitae mollitia iusto ex quaerat officia nulla molestias possimus et provident quibusdam deserunt, voluptate adipisci");
+parrafo.appendChild(parrafoText);
 
 //Botones
 const button2 = document.createElement("button")
@@ -19,3 +21,4 @@ button1.appendChild(button1Text)
 button1.addEventListener('click', () => {
     parrafo.style.display = "block"
 })
+

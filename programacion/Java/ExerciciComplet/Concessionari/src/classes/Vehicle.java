@@ -6,6 +6,8 @@ import java.util.Iterator;
 
 //La interfaz Comparable en Java se utiliza para definir un orden natural de los objetos de una clase.
 
+// La interfaz nos recuerda que los métodos de la interfaz se deben implement en las clases que se implement la interfaz.
+
 // COMPARABLE se utiliza comúnmente para ordenar colecciones de objetos en Java, como por ejemplo, ordenar una lista de estudiantes por su nombre o por su edad.
 
 // compareTo() es un método definido en la interfaz Comparable, que se utiliza para comparar objetos de una clase que SI tienen un ORDEN natural DEFINIDO.

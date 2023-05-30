@@ -29,12 +29,20 @@ console.log(arr.join(" ==> "))
 
 console.log('--------------- APARTADO 2 -----------------');
 
-const notaMedia = function notaMedia(nombre, ...notas) {
+/* const notaMedia = function notaMedia(nombre, ...notas) {
     const sumaTotal = notas.reduce((acc, curr) => acc + curr)
     const resultado = +(sumaTotal / notas.length).toFixed(2)
     console.log(`La nota media de ${nombre} es de ${resultado}`)
 }
-console.log(notaMedia("Alberto", 4.25, 6, 8.5, 9))
+console.log(notaMedia("Alberto", 4.25, 6, 8.5, 9)) */
+
+const notaMedia = function notaMedia(nombre, notas) {
+    const sumaTotal = notas.reduce((acc, curr) => acc + curr)
+    const resultado = +(sumaTotal / notas.length).toFixed(2)
+    console.log(`La nota media de ${nombre} es de ${resultado}`)
+}
+console.log(notaMedia("Alberto", [4.25, 6, 8.5, 9]))
+
 
 /**
  * Apartado 3
@@ -97,7 +105,7 @@ let mensajes = [
 })
 console.log(mensajesError) */
 
-const mensajesError = mensajes.filter(([producto, mensaje]) => {
+const mensajesError = mensajes.filter(([_, mensaje]) => {
     return mensaje.startsWith("ERROR")
 })
 console.log(mensajesError)
@@ -167,7 +175,8 @@ function convertirFecha(fecha) {
         if (indice == 0 || indice == 3) {
             const part1 = texto[0].toUpperCase();
             const part2 = texto.slice(1);
-            return part1 + part2
+            return part1 + part2 
+            // Quan index = 0 == part1 = M i part2 = artes resultat= Martes || Quan index = 3 == part1 = M i part2 = arzo resultat= Marzo
         } else {
             return texto
         }
